@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Page</title>
+    <link rel="stylesheet" href="community.css">
+    <script src="community.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">EDUHUB</div>
+        <button class="home-btn" onclick="window.location.href='index.html'">
+            <i class="fa-solid fa-house"></i> Home
+        </button>
+    </nav>
+
+    <!-- Community Section -->
+    <div class="community-container">
+        <h1 class="page-title">Welcome to the EDUHUB Community</h1>
+        <p class="community-description">Join discussions, ask questions, and connect with fellow learners.</p>
+
+        <!-- Community Features -->
+        <div class="community-grid">
+            <!-- Discussion Forum -->
+            <div class="community-card">
+                <h2 class="community-title">Discussion Forum</h2>
+                <p class="community-text">Engage in meaningful discussions on various topics.</p>
+                <button class="community-btn" onclick="window.open('https://www.reddit.com/r/education/', '_blank')">Join Forum</button>
+            </div>
+
+            <!-- Q&A Section -->
+            <div class="community-card">
+                <h2 class="community-title">Q&A</h2>
+                <p class="community-text">Ask questions and get answers from the community.</p>
+                <button class="community-btn" onclick="window.open('https://stackoverflow.com/', '_blank')">Ask a Question</button>
+            </div>
+
+            <!-- Community Guidelines -->
+            <div class="community-card">
+                <h2 class="community-title">Community Guidelines</h2>
+                <p class="community-text">Learn about our community rules and best practices.</p>
+                <button class="community-btn" onclick="window.open('https://example.com/guidelines', '_blank')">View Guidelines</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

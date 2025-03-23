@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js" defer></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 class="quiz-title">Quiz</h1>
+        <div id="question-container" class="question-container">
+            <p id="question" class="question">What is the capital of France?</p>
+            <div class="options">
+                <button class="option-btn" onclick="checkAnswer(this)" data-correct="false">Berlin</button>
+                <button class="option-btn" onclick="checkAnswer(this)" data-correct="false">Madrid</button>
+                <button class="option-btn" onclick="checkAnswer(this)" data-correct="true">Paris</button>
+                <button class="option-btn" onclick="checkAnswer(this)" data-correct="false">Rome</button>
+            </div>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+
+</body>
+</html>1

@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradient background */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+}
+#tagline{
+    /* text-align: center; */
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    gap: 50px;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    
+}
+
+/* Home Button Styling
+.home-btn {
+    background: linear-gradient(90deg, #43e97b, #38f9d7); /* Gradient background */
+    /* color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    /* cursor: pointer;
+    transition: all 0.3s ease; Smooth hover effect */
+/* }
+
+.home-btn i {
+    font-size: 18px; Icon size */
+/* }
+
+.home-btn:hover {
+    background: linear-gradient(90deg, #38f9d7, #43e97b); /* Reverse gradient on hover */
+    /*transform: scale(1.05); /* Slightly enlarge on hover */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); Add shadow on hover */
+/* } */ 
+
+/* Home Button Styling */
+.home-btn {
+    background: linear-gradient(90deg, #43e97b, #38f9d7); /* Gradient background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+    margin-right: auto; /* Push the button to the left */
+}
+
+.home-btn i {
+    font-size: 18px; /* Icon size */
+}
+
+.home-btn:hover {
+    background: linear-gradient(90deg, #38f9d7, #43e97b); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+    color: #2c3e50;
+}
+
+/* AI Tools Container */
+.ai-tools-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* AI Tools List */
+.ai-tools-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Individual AI Tool */
+.ai-tool {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ai-tool:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Tool Title */
+.tool-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+/* Tool Description */
+.tool-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+/* Tool Button */
+.tool-btn {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.tool-btn:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+}
+
+
+.aiimg{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home-btn {
+    background: linear-gradient(90deg, #43e97b, #38f9d7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+    background: linear-gradient(90deg, #38f9d7, #43e97b);
+    transform: scale(1.05);
+}
+
+/* Subjects Section */
+.subjects-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.subject {
+    margin-bottom: 40px;
+}
+
+.subject-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #34495e;
+    text-align: center;
+}
+
+/* Box Container */
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Box */
+.box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.box-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.box-btn {
+    background: linear-gradient(90deg, #43e97b, #38f9d7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.box-btn:hover {
+    background: linear-gradient(90deg, #38f9d7, #43e97b);
+    transform: scale(1.05);
+}
